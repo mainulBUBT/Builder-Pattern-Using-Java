@@ -15,6 +15,7 @@ public class House {
     private String color;
 
     public House(String material, String area, String color) {
+        super();
         this.material = material;
         this.area = area;
         this.color = color;
